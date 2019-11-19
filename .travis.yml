@@ -32,7 +32,7 @@ jobs:
         - echo "Deploying $RELEASE_TAG to Cloud Foundry"
       deploy:
         provider: cloudfoundry
-          api: $api.sys.evans.pal.pivotal.io
+        api: $api.sys.evans.pal.pivotal.io
         username: $nikhil.jagtap@wipro.com
         password: $bkx9twxc
         organization: $nikhil.jagtap.wipro.com
