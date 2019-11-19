@@ -7,4 +7,4 @@ applications:
   - route: nikhil-maneesh-travis.apps.evans.pal.pivotal.io
 
   env:
-    WELCOME_MESSAGE: hello
+    WELCOME_MESSAGE: Hello from the review environment
